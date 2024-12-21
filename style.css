@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Poppins";
+  /* line-height: 1.5; */
+}
+
+/* .container {
+  margin: 4rem auto;
+  background-color: red; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.header {
+  margin: 5rem auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+.header p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: 200;
+  margin: 0;
+}
+
+.header span {
+  font-weight: 600;
+}
+
+.card-section {
+  /* background-color: red; */
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  width: 350px;
+  padding: 3rem;
+  margin: 1.5rem;
+  border-top: 0.5rem solid;
+}
+
+.card p {
+  font-size: 1.4rem;
+  margin: 1.5rem 0 4rem;
+}
+
+.b1 {
+  border-color: hsl(180, 62%, 55%);
+  /* transform: translateY(50%); */
+}
+
+.b2 {
+  border-color: hsl(0, 78%, 62%);
+}
+
+.b3 {
+  border-color: hsl(212, 86%, 64%);
+  /* transform: translateY(50%); */
+}
+
+.b4 {
+  border-color: hsl(34, 97%, 64%);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+}
+
+/* .header h1 {
+  margin-bottom: 1rem;
+} */
+
+/* .header p {
+  font-size: 1.5rem;
+}
+
+.card {
+  background-color: white;
+  width: 200px;
+  border-radius: 0.3rem;
+  border-top: 3px solid hsl(180, 62%, 55%);
+  box-shadow: 1px 1px 3px black; 
+   padding: 1.5rem; 
+ } 
+
+.card-container {
+  width: 90%;
+   background-color: green; 
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.card-info {
+   padding: 1.5rem; 
+   width: 90%; 
+   background-color: pink; 
+  margin-bottom: 1.5rem;
+}
+
+.card-info p {
+  font-size: 0.9rem;
+}
+.card-info h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.image-container {
+   background-color: purple; 
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-container img {
+  width: 3.5rem;
+}
+
+.card-section {
+  max-width: 1000px;
+  background-color: red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+ */
